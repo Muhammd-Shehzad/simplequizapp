@@ -38,12 +38,16 @@ class _Screen1State extends State<Screen1> {
                         Container(
                           height: 30,
                           width: 90,
-                          decoration: BoxDecoration(color: Colors.grey),
+                          decoration: BoxDecoration(
+                              color: Colors.grey,
+                              borderRadius: BorderRadius.circular(10)),
                         ),
                         Container(
                           height: 30,
                           width: 90,
-                          decoration: BoxDecoration(color: Colors.grey),
+                          decoration: BoxDecoration(
+                              color: Colors.grey,
+                              borderRadius: BorderRadius.circular(10)),
                         ),
                       ],
                     ),
@@ -56,12 +60,16 @@ class _Screen1State extends State<Screen1> {
                         Container(
                           height: 30,
                           width: 90,
-                          decoration: BoxDecoration(color: Colors.grey),
+                          decoration: BoxDecoration(
+                              color: Colors.grey,
+                              borderRadius: BorderRadius.circular(10)),
                         ),
                         Container(
                           height: 30,
                           width: 90,
-                          decoration: BoxDecoration(color: Colors.grey),
+                          decoration: BoxDecoration(
+                              color: Colors.grey,
+                              borderRadius: BorderRadius.circular(10)),
                         ),
                       ],
                     ),
@@ -75,7 +83,8 @@ class _Screen1State extends State<Screen1> {
             child: Container(
               height: 50,
               width: 150,
-              decoration: BoxDecoration(color: Colors.grey),
+              decoration: BoxDecoration(
+                  color: Colors.grey, borderRadius: BorderRadius.circular(10)),
               child: Text('Submit'),
             ),
           ),
